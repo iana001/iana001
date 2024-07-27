@@ -26,6 +26,7 @@ email_password = "your_email_password"  # Parola pentru adresa de email
 ## Executare Script
 
 Rulați scriptul pentru a începe înregistrarea apăsărilor de taste. Scriptul va asculta evenimentele de tastatură și va trimite datele prin email când tasta Enter este apăsată.
+```bash
 python keylogger.py
 
 ## Funcționalitate
